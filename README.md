@@ -1,6 +1,6 @@
 # 🤖 Chatbot de Dúvidas sobre Autismo
 
-Bem-vindo(a) ao **Chatbot de Dúvidas sobre Autismo**! Este projeto é um chatbot que responde perguntas relacionadas ao autismo, facilitando o acesso a informações de forma simples e rápida.
+Bem-vindo(a) ao **Chatbot Neuro Apoio**! Este projeto é um chatbot que responde perguntas relacionadas ao autismo, facilitando o acesso a informações de forma simples e rápida.
 
 ## 🚀 Funcionalidades
 
@@ -39,10 +39,10 @@ Bem-vindo(a) ao **Chatbot de Dúvidas sobre Autismo**! Este projeto é um chatbo
   language-code="pt-br"
 ></df-messenger>
 
-##💡 Contribuindo
+## 💡 Contribuindo
 Se você quiser contribuir com este projeto, sinta-se à vontade para abrir uma issue com sugestões ou enviar um pull request. Vamos adorar ter sua ajuda! 😊
 
-##📜 Licença
+## 📜 Licença
 Este projeto é licenciado sob a MIT License. Confira o arquivo LICENSE para mais detalhes.
 
 
