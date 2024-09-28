@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+        
+    </style>
+    <link rel="icon" href="assets/4972116-colorido-cetim-quebra-cabeca-fita-como-simbolo-autismo-consciencia-vetor-removebg-preview.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuro Apoio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-link" href="index.html">Home</a>
+            <a class="cabecalho-menu-link" href="about.html">Quem Somos</a>
+            <img class="apresentacao-imagem-simbolo" src="assets/4972116-colorido-cetim-quebra-cabeca-fita-como-simbolo-autismo-consciencia-vetor-removebg-preview.png" alt="simbolo" />
+        </nav>
+    </header>
+    
+    <main class="chat-container">
+        <img class="apresentacao-imagem" src="./assets/fotor-ai-2024092517502-removebg-preview.png" alt="menino" />
+        
+        <section class="chat-container-conteudo">
+            <h1 class="chat-container-conteudo-saudacao">Bem-vindo ao Neuro Apoio! Eu sou o Vicky</h1>
+            <p class="chat-container-conteudo-texto">Aqui, você encontrará um espaço dedicado a oferecer suporte e informações sobre autismo. 
+            Nosso chatbot está sempre pronto para responder às suas dúvidas de maneira prática e acessível. 
+            Acreditamos que o conhecimento é uma ferramenta poderosa, e por isso, disponibilizamos recursos para ajudar você a entender melhor essas condições e lidar com os desafios diários. Informe-se, tire suas dúvidas e sinta-se acolhido(a). Afinal, compreender é o primeiro passo para apoiar!</p>
+        </section>
+    </main>
+
+    <style>
+        df-messenger {
+         --df-messenger-bot-message: hsl(262, 82%, 50%);
+         --df-messenger-button-titlebar-color: hsl(262, 82%, 50%);
+         --df-messenger-chat-background-color:#897BEB;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #878fac;
+         --df-messenger-user-message: #479b3d;
+         --df-messenger-chat-icon:'assets/4972116-colorido-cetim-quebra-cabeca-fita-como-simbolo-autismo-consciencia-vetor-removebg-preview.png' !important;
+         --df-messenger-input-placeholder-text: "Escreva aqui..."; 
+         --df-messenger::part(chat-icon) 
+            {
+            width: 36px;
+            height: 36px;
+            }
+        }
+      </style>
+   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger class="chatbot"
+        intent="WELCOME"
+        chat-title="Eu sou o Vicky"
+        agent-id="09cbef76-3bc5-46e2-983a-beca5cf0720f"
+        language-code="pt-br">
+    </df-messenger>
+</body>
+</html>
+
