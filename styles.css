@@ -109,7 +109,7 @@ body {
 
     }
 
-    .chat-container {
+    .chat-container, .chat-container-about {
         flex-wrap: wrap; /* Quando a tela for menor, o conteúdo empilha */
         flex-direction: column;
         width: 450px;
