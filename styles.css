@@ -97,7 +97,7 @@ body {
 
 
 /* Estilos responsivos */
-@media  {
+@media (max-width: 1000px) {
     .cabecalho-menu, .apresentacao-imagem-simbolo {
         align-items: center;
         gap: 70px;
